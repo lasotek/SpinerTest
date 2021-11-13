@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spinner plays</title>
+</head>
+<body>
+    <form id="example">
+        <p>Fill out an email address and click send to show the spinner. The spinner gets automatically cancelled if the
+            form is invalid. (The "spinner" is just text, no graphics in this demo.)</p>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <button type="submit"><span>Send</span></button>
+        <button type="submit" formnovalidate><span>Send now (skip validation)</span></button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
